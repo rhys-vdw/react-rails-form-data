@@ -16,7 +16,7 @@ npm install react-rails-form-data --save
 
 ## Usage
 
-```jsx
+```js
 import React from 'react'
 import RailsFormData from 'react-rails-form-data'
 
@@ -40,7 +40,7 @@ export default class FormDataExample({ uri }) {
 
 ```html
 <form action='http://example.com/people'>
-  <div style='display: none'>
+  <div style='display: none;'>
     <input type='hidden' name='person[name]' value='Jane Smith' />
     <input type='hidden' name='person[dateOfBirth]' value='1992-01-01' />
     <input type='hidden' name='person[favoriteColors][]' value='red' />
