@@ -6,7 +6,7 @@
 
 ## Background
 
-Created by UsabilityHub as a helper to serializes JS objects used by React into hidden form fields. The fields are named so that they are interpreted correctly by Rails. Can handle complex nested objects.
+Created by UsabilityHub as a helper to serialize JS objects into hidden form fields. The fields are named so that they are interpreted correctly by Rails. Can handle complex nested objects.
 
 ## Install
 
