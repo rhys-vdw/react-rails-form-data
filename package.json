@@ -1,0 +1,48 @@
+{
+  "name": "react-rails-form-data",
+  "version": "1.0.0",
+  "description": "React component that serializes arbitrary JS objects into hidden fields for Ruby on Rails",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard src/**/*.js",
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run lint && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usabilityhub/react-rails-form-data.git"
+  },
+  "keywords": [
+    "component",
+    "field",
+    "form",
+    "hidden",
+    "rails",
+    "react"
+  ],
+  "author": "Rhys van der Waerden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usabilityhub/react-rails-form-data/issues"
+  },
+  "homepage": "https://github.com/usabilityhub/react-rails-form-data#readme",
+  "peerDependencies": {
+    "react": "15.x"
+  },
+  "dependencies": {
+    "lodash.flatmap": "^4.5.0",
+    "lodash.isarray": "^4.0.0",
+    "lodash.isempty": "^4.4.0",
+    "lodash.isobject": "^3.0.2",
+    "lodash.isplainobject": "^4.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "standard": "^7.1.2"
+  }
+}
