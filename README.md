@@ -42,7 +42,7 @@ export default class FormDataExample({ uri }) {
 <form action='http://example.com/people'>
   <div style='display: none;'>
     <input type='hidden' name='person[name]' value='Jane Smith' />
-    <input type='hidden' name='person[dateOfBirth]' value='1992-01-01' />
+    <input type='hidden' name='person[dateOfBirth]' value='1991-01-01' />
     <input type='hidden' name='person[favoriteColors][]' value='red' />
     <input type='hidden' name='person[favoriteColors][]' value='magenta' />
   </div>
